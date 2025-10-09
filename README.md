@@ -106,4 +106,4 @@ uv run adk web
 
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python)
 - [Google Agent Development Kit (Docs)](https://google.github.io/adk-docs/)
-- [Box AI Agents Toolkit](https://github.com/box/box-ai-agents-toolkit)
+
