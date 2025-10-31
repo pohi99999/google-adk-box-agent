@@ -33,6 +33,23 @@ cd google-adk-box-agent
 
 2. [Install uv](https://docs.astral.sh/uv/getting-started/installation/) (if not already installed)
 
+3. Create a virtual environment and install dependencies
+
+```bash
+uv sync
+```
+
+The project uses a uv.lock file to ensure deterministic installations across environments.
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/box-community/google-adk-box-agent.git
+cd google-adk-box-agent
+```
+
+2. [Install uv](https://docs.astral.sh/uv/getting-started/installation/) (if not already installed)
+
 
 
 3. Create a virtual environment and install dependencies
