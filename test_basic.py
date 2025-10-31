@@ -1,6 +1,7 @@
 """
 Basic tests for the Box Agent
 """
+
 from box_agent import root_agent
 from box_agent.agent import BoxAgent
 
@@ -14,7 +15,7 @@ def test_root_agent_exists():
 
 def test_agent_has_box_agent():
     """Test that the BoxAgent has a box_full_agent"""
-    assert hasattr(root_agent, 'box_full_agent')
+    assert hasattr(root_agent, "box_full_agent")
     assert root_agent.box_full_agent is not None
 
 
@@ -29,7 +30,7 @@ def test_box_agent_tools_import():
         box_ask_ai_tool,
         box_ai_extract_data,
     )
-    
+
     # Verify all tools are callable
     assert callable(box_who_am_i_tool)
     assert callable(box_search_tool)
